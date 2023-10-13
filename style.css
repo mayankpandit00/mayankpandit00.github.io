@@ -290,6 +290,9 @@ html {
     line-height: 1.5em;
 }
 
+.about-list-smallscreen {
+    display: none;
+}
 
 .skills-text {
     width: 100%;
@@ -439,6 +442,7 @@ html {
 .certificate a:hover {
     text-decoration: underline;
     text-decoration-color: darkgreen;
+    cursor: pointer;
 }
 
 .resume-line1 {
@@ -881,7 +885,13 @@ html {
     }
 
     .about-list {
+        display: none;
+    }
+
+    .about-list-smallscreen {
+        display: block;
         font-size: 15px;
+        text-align-last: justify;
     }
 
     .skills-text-animations:hover.skills-text-animations ul {
@@ -967,40 +977,3 @@ html {
     }
 
 }
-
-/* For medium screens */
-/* @media (min-width: 769px) and (max-width: 1024px) {
-} */
-/*body {
-        padding-right: 0;
-    }
-
-    .fixed-container {
-        width: 39%;
-    }
-
-    .nav-bar {
-        width: 59%;
-        left: 40%;
-    }
-
-    .nav-bar i {
-        margin-right: 3px;
-    }
-
-    .section {
-        width: 60%;
-    }
-
-} */
-
-/* For large screens */
-/* @media (min-width: 1025px) {
-    .fixed-container {
-        max-width: 30%;
-    }
-
-    .content-list {
-        margin-left: 31%;
-    }
-} */
