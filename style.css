@@ -319,7 +319,7 @@ html {
     display: flex;
     align-items: center;
     width: fit-content;
-    transform: translateX(-50%);
+    transform: translateX(-51%);
     animation: transform 30s linear infinite;
 }
 
