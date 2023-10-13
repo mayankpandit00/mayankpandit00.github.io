@@ -85,6 +85,13 @@ sections.forEach((section) => {
 });
 
 
+// Tab change Script
+function openImage(imagePath, title) {
+    var newTab = window.open(imagePath, "_blank");
+    newTab.document.title = title;
+}
+
+
 // Project Script 
 projectData = [
     [
